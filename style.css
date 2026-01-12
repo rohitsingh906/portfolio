@@ -1,0 +1,139 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+  background:#eef4ff;
+  color:#222;
+}
+
+/* Header */
+.hero{
+  background:linear-gradient(135deg,#0a66c2,#4facfe);
+  color:white;
+  text-align:center;
+  padding:90px 20px;
+}
+
+.profile{
+  width:150px;
+  height:150px;
+  border-radius:50%;
+  border:5px solid white;
+  object-fit:cover;
+  box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+.hero h1{
+  font-size:42px;
+  margin:15px 0 5px;
+}
+
+.hero h3{
+  font-weight:400;
+  opacity:0.95;
+}
+
+/* Buttons */
+.hero-buttons{
+  margin-top:30px;
+}
+
+.btn{
+  display:inline-block;
+  padding:14px 28px;
+  margin:8px;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:600;
+  border:2px solid white;
+  color:white;
+  transition:0.3s;
+}
+
+.btn.primary{
+  background:white;
+  color:#0a66c2;
+}
+
+.btn:hover{
+  background:white;
+  color:#0a66c2;
+}
+
+/* Section Layout */
+section{
+  padding:70px 10%;
+}
+
+h2{
+  text-align:center;
+  font-size:32px;
+  color:#0a66c2;
+  margin-bottom:40px;
+}
+
+/* Card Box */
+.about, .skills, #projects, .cert, .contact{
+  background:white;
+  border-radius:15px;
+  padding:40px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.1);
+  margin-bottom:60px;
+}
+
+/* Skills Grid */
+.skill-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+  gap:15px;
+}
+
+.skill-grid span{
+  background:#f4f8ff;
+  border:1px solid #0a66c2;
+  padding:12px;
+  border-radius:8px;
+  text-align:center;
+  font-weight:500;
+}
+
+/* Projects */
+.project-card{
+  border:1px solid #0a66c2;
+  border-radius:12px;
+  padding:25px;
+  margin-bottom:25px;
+  background:#f9fbff;
+}
+
+.project-card h3{
+  color:#0a66c2;
+  margin-bottom:10px;
+}
+
+/* Certifications */
+.cert ul{
+  list-style:none;
+}
+
+.cert li{
+  padding:12px;
+  margin-bottom:10px;
+  border:1px solid #0a66c2;
+  border-radius:8px;
+  background:#f4f8ff;
+}
+
+/* Contact */
+.contact{
+  text-align:center;
+}
+
+.contact p{
+  font-size:18px;
+  margin:10px 0;
+}
